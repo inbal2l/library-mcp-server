@@ -1,0 +1,15 @@
+[project]
+name = "library-mcp-server"
+version = "0.1.0"
+description = "Experimental MCP server for library wording review"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.6.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+]
